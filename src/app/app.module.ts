@@ -15,6 +15,7 @@ import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
 import { ProductosService } from './services/productos.service';
 import { InfoPaginaService } from './services/info-pagina.service';
+import { PruebawpComponent } from './pages/pruebawp/pruebawp.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { InfoPaginaService } from './services/info-pagina.service';
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    SearchComponent
+    SearchComponent,
+    PruebawpComponent
   ],
   imports: [
     BrowserModule,
